@@ -3,19 +3,18 @@ int main()
 {
 	WorkerManage mainwm;
 	int choice = 0;
-	bool problemflag = 0;//在用户给出错误输入码时，提供提示
 	while (1)
 	{
-		if (problemflag == 0) mainwm.show_menu();
-		else problemflag = 0;
+	    mainwm.show_menu();
 		cout << "请输入你的选择" << endl;
 		cin >> choice;
-		switch (choice)
+		switch (choice)  
 		{
 		case 0://退出
 			cout << "欢迎下次使用" << endl;
 			return 0;
 		case 1: //添加职工
+			mainwm.add_emp();
 			break;
 		case 2: //显示职工
 			break;
@@ -31,9 +30,10 @@ int main()
 			break;
 		default:
 			cout << "错误的操作码，请重新输入" << endl;
-			problemflag = 1;
 			break;
 		}
+		system("pause");
+		system("cls");
 	}
 	return 0;
 }
