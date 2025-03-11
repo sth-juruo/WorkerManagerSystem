@@ -26,6 +26,23 @@ void WorkerManage::show_menu()
 	cout << "********************************************" << endl;
 	cout << endl;
 }
+void WorkerManage::save()
+{
+	ofstream ofs;
+	ofs.open("empfile.txt", ios::out);
+	if (ofs.is_open() == 0)
+	{
+		cout << "打开文件失败" << endl;
+		return;
+	}
+	for (int i = 0; i < m_EmpNum; i++)
+	{
+		ofs << m_EmpArray[i]->d_id << " "
+			<< m_EmpArray[i]->m_id << " "
+			<< m_EmpArray[i]->m_name << endl;
+	}
+	ofs.close();
+}
 void WorkerManage:: add_emp()
 {
 	int addnum, newsize;
@@ -65,17 +82,18 @@ void WorkerManage:: add_emp()
 			}
 			else if (selct == 2)
 			{
-				//创建经理
+				newworker = new manage(id, name, selct);
 			}
 			else if (selct == 3)
 			{
-				//创建老板
+				newworker = new boss(id, name, selct);
 			}
 			newspace[m_EmpNum + i] = newworker;
 		}
 		delete[] m_EmpArray;
 		m_EmpNum = newsize;//更新数组数据
 		m_EmpArray = newspace;
+		save();
 		cout << "成功添加" << addnum << "名新职工！" << endl;
 	}
 	else

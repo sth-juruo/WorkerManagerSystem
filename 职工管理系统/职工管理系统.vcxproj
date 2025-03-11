@@ -127,14 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="boss.cpp" />
     <ClCompile Include="empolyee.cpp" />
+    <ClCompile Include="manage.cpp" />
     <ClCompile Include="workermanage.cpp" />
     <ClCompile Include="职工管理系统main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="empolyee.h" />
+    <ClInclude Include="manage.h" />
     <ClInclude Include="worker.h" />
     <ClInclude Include="workermanage.h" />
+    <ClInclude Include="boss.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

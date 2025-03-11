@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:workermanage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:workermanage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\manage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:manage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\empolyee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:empolyee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:workermanage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\worker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:worker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\boss.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:boss.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\empolyee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:empolyee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\worker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:worker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\manage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:manage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:workermanage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\boss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9EEC19D4-FC20-4C17-9733-2A9BD259455E}|\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF.vcxproj|solutionrelative:boss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +50,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "manage.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\manage.cpp",
+              "RelativeDocumentMoniker": "manage.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\manage.cpp",
+              "RelativeToolTip": "manage.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T01:13:56.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "boss.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\boss.cpp",
+              "RelativeDocumentMoniker": "boss.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\boss.cpp",
+              "RelativeToolTip": "boss.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T01:09:50.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "empolyee.h",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\empolyee.h",
               "RelativeDocumentMoniker": "empolyee.h",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\empolyee.h",
               "RelativeToolTip": "empolyee.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-05T13:31:25.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "empolyee.cpp",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\empolyee.cpp",
               "RelativeDocumentMoniker": "empolyee.cpp",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\empolyee.cpp",
               "RelativeToolTip": "empolyee.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-05T13:26:54.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "workermanage.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.cpp",
+              "RelativeDocumentMoniker": "workermanage.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.cpp",
+              "RelativeToolTip": "workermanage.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwC8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T13:20:11.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "workermanage.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.h",
+              "RelativeDocumentMoniker": "workermanage.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.h",
+              "RelativeToolTip": "workermanage.h",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-05T13:20:08.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
+              "RelativeDocumentMoniker": "\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
+              "RelativeToolTip": "\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-05T09:21:16.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "worker.h",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\worker.h",
               "RelativeDocumentMoniker": "worker.h",
@@ -77,41 +158,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "workermanage.cpp",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.cpp",
-              "RelativeDocumentMoniker": "workermanage.cpp",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.cpp",
-              "RelativeToolTip": "workermanage.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-05T13:20:11.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "workermanage.h",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.h",
-              "RelativeDocumentMoniker": "workermanage.h",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\workermanage.h",
-              "RelativeToolTip": "workermanage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "manage.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\manage.h",
+              "RelativeDocumentMoniker": "manage.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\manage.h",
+              "RelativeToolTip": "manage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-05T13:20:08.134Z",
+              "WhenOpened": "2025-03-11T01:12:38.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
-              "RelativeDocumentMoniker": "\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
-              "RelativeToolTip": "\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDFmain.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwCYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-05T09:21:16.462Z",
+              "DocumentIndex": 9,
+              "Title": "boss.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\boss.h",
+              "RelativeDocumentMoniker": "boss.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\\u4EE3\u7801\\WorkerManagerSystem\\\u804C\u5DE5\u7BA1\u7406\u7CFB\u7EDF\\boss.h",
+              "RelativeToolTip": "boss.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T01:08:55.363Z",
               "EditorCaption": ""
             }
           ]
