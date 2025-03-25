@@ -131,7 +131,7 @@
     <ClCompile Include="empolyee.cpp" />
     <ClCompile Include="manage.cpp" />
     <ClCompile Include="workermanage.cpp" />
-    <ClCompile Include="职工管理系统main.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="empolyee.h" />

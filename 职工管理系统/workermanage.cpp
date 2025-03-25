@@ -1,8 +1,30 @@
 #include "workermanage.h"
 WorkerManage:: WorkerManage()
 {
-	m_EmpArray = NULL;
-	m_EmpNum = 0;
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);
+	//文件不存在
+	if (ifs.is_open() != 1)
+	{
+		m_EmpArray = NULL;
+		m_EmpNum = 0;
+		m_FileIsEmpty = true;
+		ifs.close();
+		return;
+	}
+	char ch;
+	ifs >> ch;//刷新流状态
+	//存在但文件为空
+     if (ifs.eof()==1)
+	{
+		cout << "文件为空" << endl;
+		m_EmpArray = NULL;
+		m_EmpNum = 0;
+		m_FileIsEmpty = true;
+		ifs.close();
+		return;
+	}	 
+	 init_Emp();
 }
 WorkerManage::~WorkerManage()
 {
@@ -11,6 +33,54 @@ WorkerManage::~WorkerManage()
 		delete[] m_EmpArray;
 	}
 }
+//获取文件中员工的人数
+int WorkerManage::get_EmpNum()
+{
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);
+	int did, id;
+	int num = 0;
+	string name;
+	while (ifs >> did && ifs >> name && ifs >> id)
+	{
+		num++;
+	}
+	ifs.close();
+	return num;
+}
+//通过文件初识化员工
+void WorkerManage::init_Emp()
+{
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);
+	m_EmpNum = get_EmpNum();
+	worker** newspace = new worker * [m_EmpNum];
+	int did, id;
+	int index = 0;
+	string name;
+	while (ifs >> id && ifs >> name && ifs >> did)
+	{
+		worker* worker = NULL;
+		if (did == 1)
+		{
+			worker = new employee(id, name, 1);
+		}
+		else if (did == 2)
+		{
+			worker = new manage(id, name, 2);
+		}
+		else if (did == 3)
+		{
+			worker = new boss(id, name, 3);
+		}
+		newspace[index] = worker;
+		index++;
+	}
+	m_EmpArray = newspace;
+	m_FileIsEmpty = false;
+	ifs.close();
+}
+//开始菜单
 void WorkerManage::show_menu()
 {
 	cout << "********************************************" << endl;
@@ -26,23 +96,20 @@ void WorkerManage::show_menu()
 	cout << "********************************************" << endl;
 	cout << endl;
 }
+//将数据保存到文件里
 void WorkerManage::save()
 {
 	ofstream ofs;
 	ofs.open("empfile.txt", ios::out);
-	if (ofs.is_open() == 0)
-	{
-		cout << "打开文件失败" << endl;
-		return;
-	}
 	for (int i = 0; i < m_EmpNum; i++)
 	{
-		ofs << m_EmpArray[i]->d_id << " "
-			<< m_EmpArray[i]->m_id << " "
-			<< m_EmpArray[i]->m_name << endl;
+		ofs << m_EmpArray[i]->m_id << " "
+			<< m_EmpArray[i]->m_name << " "
+			<< m_EmpArray[i]->d_id << endl;
 	}
 	ofs.close();
 }
+//增加员工
 void WorkerManage:: add_emp()
 {
 	int addnum, newsize;
@@ -94,6 +161,7 @@ void WorkerManage:: add_emp()
 		m_EmpNum = newsize;//更新数组数据
 		m_EmpArray = newspace;
 		save();
+		m_FileIsEmpty = false;
 		cout << "成功添加" << addnum << "名新职工！" << endl;
 	}
 	else
