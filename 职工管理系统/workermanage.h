@@ -23,4 +23,7 @@ public:
 	void save();//保存
 	int get_EmpNum();//获取文件中员工的人数
 	void init_Emp();//用文件初始化员工
+	void show_Emp();//显示员工
+	int find_Emp(int id);//查找员工
+	void del_Emp();//删除员工
 };

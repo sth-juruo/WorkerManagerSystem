@@ -4,7 +4,7 @@ employee::employee(int id, string name, int dId)
 	this->m_id = id;
 	this->m_name = name;
 	this->d_id = dId;
-}
+}	
 void employee::showinfo()
 {
 	cout << "Ö°¹¤±àºÅ£º " << this->m_id

@@ -17,8 +17,10 @@ int main()
 			mainwm.add_emp();
 			break;
 		case 2: //显示职工
+			mainwm.show_Emp();
 			break;
 		case 3: //删除职工
+			mainwm.del_Emp();
 			break;
 		case 4: //修改职工
 			break;

@@ -6,6 +6,7 @@ WorkerManage:: WorkerManage()
 	//文件不存在
 	if (ifs.is_open() != 1)
 	{
+		cout << "初始化文件不存在" << endl;
 		m_EmpArray = NULL;
 		m_EmpNum = 0;
 		m_FileIsEmpty = true;
@@ -17,7 +18,7 @@ WorkerManage:: WorkerManage()
 	//存在但文件为空
      if (ifs.eof()==1)
 	{
-		cout << "文件为空" << endl;
+		cout << "初始化文件为空" << endl;
 		m_EmpArray = NULL;
 		m_EmpNum = 0;
 		m_FileIsEmpty = true;
@@ -155,6 +156,11 @@ void WorkerManage:: add_emp()
 			{
 				newworker = new boss(id, name, selct);
 			}
+			else
+			{
+				cout << "输入有误" << endl;
+				return;
+			}
 			newspace[m_EmpNum + i] = newworker;
 		}
 		delete[] m_EmpArray;
@@ -167,5 +173,58 @@ void WorkerManage:: add_emp()
 	else
 	{
 		cout << "输入有误" << endl;
+	}
+}
+//显示员工
+void WorkerManage::show_Emp()
+{
+	if (m_FileIsEmpty == true)
+	{
+		cout << "文件为空" << endl;
+		return;
+	}
+	else
+	{
+		for (int i = 0; i < m_EmpNum; i++)
+		{
+			m_EmpArray[i]->showinfo();
+		}
+		return;
+	}
+}
+//查找员工，并返回其在数组中的下标，若不存在则返回-1
+int WorkerManage::find_Emp(int id)
+{
+	int index = -1;
+	for (int i = 0; i < m_EmpNum; i++)
+	{
+		if (id == m_EmpArray[i]->m_id)
+		{
+			index = i;
+			return index;
+		}
+	}
+	return index;
+}
+void WorkerManage::del_Emp()
+{
+	int id = 0;
+	cout << "请输入要删除的员工的id" << endl;
+	cin >> id;
+	int index = find_Emp(id);
+	if (index == -1)
+	{
+		cout << "员工不存在" << endl;
+		return;
+	}
+	else
+	{
+		for (int i = index; i < m_EmpNum - 1; i++)
+		{
+			m_EmpArray[i] = m_EmpArray[i + 1];
+		}
+		m_EmpNum--;
+		cout << "删除成功" << endl;
+		return;
 	}
 }
