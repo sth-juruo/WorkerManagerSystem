@@ -26,4 +26,6 @@ public:
 	void show_Emp();//显示员工
 	int find_Emp(int id);//查找员工
 	void del_Emp();//删除员工
+	void Mod_Emp();//修改员工
+	void sort_Emp();//搜索员工
 };

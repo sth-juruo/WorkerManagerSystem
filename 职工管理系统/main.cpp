@@ -23,8 +23,10 @@ int main()
 			mainwm.del_Emp();
 			break;
 		case 4: //修改职工
+			mainwm.Mod_Emp();
 			break;
 		case 5: //查找职工
+			mainwm.sort_Emp();
 			break;
 		case 6: //排序职工
 			break;

@@ -133,7 +133,7 @@ void WorkerManage:: add_emp()
 		{
 			int id;
 			string name;
-			int selct;
+			int select;
 			cout << "请输入第 " << i + 1 << " 个新职工编号：" << endl;
 			cin >> id;
 			cout << "请输入第 " << i + 1 << " 个新职工姓名：" << endl;
@@ -143,23 +143,30 @@ void WorkerManage:: add_emp()
 			cout << "2、经理" << endl;
 			cout << "3、老板" << endl;
 			worker* newworker=NULL;
-			cin >> selct;
-			if (selct == 1)
+			cin >> select;
+			while (1)
 			{
-				newworker = new employee(id, name, selct);
-			}
-			else if (selct == 2)
-			{
-				newworker = new manage(id, name, selct);
-			}
-			else if (selct == 3)
-			{
-				newworker = new boss(id, name, selct);
-			}
-			else
-			{
-				cout << "输入有误" << endl;
-				return;
+				if (select == 1)
+				{
+					newworker = new employee(id, name, select);
+					break;
+				}
+				else if (select == 2)
+				{
+					newworker = new manage(id, name, select);
+					break;
+				}
+				else if (select == 3)
+				{
+					newworker = new boss(id, name, select);
+					break;
+				}
+				else
+				{
+					cout << "输入有误，请重新输入" << endl;
+					cin >> select;
+				}
+
 			}
 			newspace[m_EmpNum + i] = newworker;
 		}
@@ -192,7 +199,7 @@ void WorkerManage::show_Emp()
 		return;
 	}
 }
-//查找员工，并返回其在数组中的下标，若不存在则返回-1
+//以id查找员工，并返回其在数组中的下标，若不存在则返回-1
 int WorkerManage::find_Emp(int id)
 {
 	int index = -1;
@@ -206,6 +213,7 @@ int WorkerManage::find_Emp(int id)
 	}
 	return index;
 }
+//删除员工
 void WorkerManage::del_Emp()
 {
 	int id = 0;
@@ -224,7 +232,105 @@ void WorkerManage::del_Emp()
 			m_EmpArray[i] = m_EmpArray[i + 1];
 		}
 		m_EmpNum--;
+		if (m_EmpNum == 0) m_FileIsEmpty = true;
+		this->save();
 		cout << "删除成功" << endl;
+		return;
+	}
+}
+//修改员工
+void WorkerManage::Mod_Emp()
+{
+	cout << "请输入要修改的员工的id" << endl;
+	int mod_id = -1;
+	cin >> mod_id;
+	int index = find_Emp(mod_id);
+	if (index != -1)
+	{
+		delete m_EmpArray[index];
+		int id;
+		string name;
+		int select;
+		cout << "请输入新职工编号：" << endl;
+		cin >> id;
+		cout << "请输入新职工姓名：" << endl;
+		cin >> name;
+		cout << "请选择该职工的岗位：" << endl;
+		cout << "1、普通职工" << endl;
+		cout << "2、经理" << endl;
+		cout << "3、老板" << endl;
+		worker* newworker = NULL;
+		cin >> select;
+		while (1)
+		{
+			if (select == 1)
+			{
+				newworker = new employee(id, name, select);
+				break;
+			}
+			else if (select == 2)
+			{
+				newworker = new manage(id, name, select);
+				break;
+			}
+			else if (select == 3)
+			{
+				newworker = new boss(id, name, select);
+				break;
+			}
+			else
+			{
+				cout << "输入有误，请重新输入" << endl;
+				cin >> select;
+			}
+		}
+		m_EmpArray[index] = newworker;
+		save();
+		cout << "修改成功" << endl;
+	}
+	else
+	{
+		cout << "未找到此员工" << endl;
+	}
+}
+//以id或者name查找员工，并输出其信息
+void WorkerManage::sort_Emp()
+{
+	if (m_FileIsEmpty == true)
+	{
+		cout << "文件不存在或记录为空！" << endl;
+		return;
+	}
+	cout << "请输入查找的方式：" << endl;
+	cout << "1、按职工编号查找" << endl;
+	cout << "2、按姓名查找" << endl;
+	int select = 0;
+	cin >> select;
+	if (select == 1)
+	{
+		int id;
+		cout << "请输入要查找的员工id" << endl;
+		cin >> id;
+		int index = find_Emp(id);
+		if (index != -1)
+		{
+			cout << "查找成功" << endl;
+			m_EmpArray[index]->showinfo();
+
+		}
+		else
+		{
+			cout << "查无此人" << endl;
+		}
+		return;
+	}
+	/*else if (select == 2)
+	{
+
+	}*/
+	else
+	{
+		cout << "输入有误" << endl;
 		return;
 	}
 }
